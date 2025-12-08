@@ -178,8 +178,6 @@ export default function App() {
           Reset
         </button>
       </div>
-
-      {/* <p>{timerStatus}</p> */}
     </div>
   );
 }
