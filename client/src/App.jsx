@@ -155,10 +155,18 @@ export default function App() {
           onChange={(Sec) => handleTimeInputChange(Sec, "seconds")}
           disabled={isTicking}
         />
-        <button onClick={handleSetNewTime} disabled={isTicking}>
+        {/* <button onClick={handleSetNewTime} disabled={isTicking}>
           Set Time
-        </button>
+        </button> */}
       </div>
+
+      <button
+        className="set-time"
+        onClick={handleSetNewTime}
+        disabled={isTicking}
+      >
+        Set Time
+      </button>
 
       <p className="count">{displayTime}</p>
 

@@ -16,10 +16,16 @@ body {
 .input {
   max-width: 50%;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 15px;
   gap: 10px;
   justify-content: space-around;
   font-size: 1.5rem;
+}
+
+.set-time {
+  max-width: 10%;
+  margin: auto;
+  margin-top: 15px;
 }
 
 .count {
@@ -27,10 +33,9 @@ body {
   background-color: white;
   border: 5px solid black;
   border-radius: 80px;
-  width: 35%;
   padding: 10px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .b-container {
